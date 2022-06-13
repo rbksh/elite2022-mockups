@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&family=Roboto:wght@100&display=swap');
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+}
+header {
+    background-color: #1F2235;
+    height: 95px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 5%;
+}
+
+nav .menu-items ul {
+    display: flex;
+}
+
+nav .menu-items ul li {
+    list-style: none;
+    color: #fff;
+    margin-inline: 20px;
+    font-family: 'Karla' , sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    position: relative;
+    right: 50px;
+    bottom: 10px;
+}
+
+.btn-1 {
+    border: 2px solid #FFFFFF;
+    background-color: #1F2235;
+    color: white;
+    font-style: 'Karla' , sans-serif;
+    font-size: 23px;
+    padding: 10px;
+}
+
+.button-1 {
+    position: relative;
+    bottom: 10px;
+}
+.text-main {
+    font-size: 52px;
+    font-family: 'Karla' , sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+.text-minor {
+    font-size: 24px;
+    font-family: 'Roboto' , sans-serif;
+    position: relative;
+    top: 20px;
+    color: white;
+}
+
+.btn-text-2 {
+    background-color: #22273A;
+    color: white;
+    border: 2px solid #FE4956;
+    border-radius: 100px;
+    font-size: 23px;
+    font-family: 'Karla' , sans-serif;
+    padding: 10px;
+}
+
+.btn-2 {
+    position: relative;
+    top: 50px;
+}
+
+.logo {
+    position: relative;
+    bottom: 5px;
+}
+
+.rhs-content {
+    position: relative;
+    top: 150px;
+    left: 100px;
+}
+
+body {
+    background-color: #22273A;
+}
+
+.img {
+    position: relative;
+    left: 700px;
+    bottom: 100px;
+}
+
+.proj-title{
+    color: white;
+    font-family: 'Karla' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+    color: #FFFFFF;
+}
+
+.project-text {
+    position: relative;
+    bottom: 70px;
+    left: 40px;
+}
+
+.proj-1-header {
+    position: relative;
+    bottom: 300px;
+    left: 300px;
+    bottom: 100px;
+}
+
+.proj-1-footer {
+    width: 300px;
+}
+
+.proj-1 {
+    position: relative;
+    right: 250px;
+    bottom: 30px;
+}
+
+.proj-1-text {
+    color: white;
+    font-size: 52px;
+    font-family: 'Karla' , sans-serif;
+    position: relative;
+    left: 340px;
+    bottom: 90px;
+
+}
+
+.proj-2-header {
+    position: relative;
+    right: 310px;   
+    bottom: 100px;
+}
+
+.proj-2 {
+    position: relative;
+    left: 500px;
+    bottom: 380px;
+}
+
+.proj-2-text {
+    color: white;
+    font-family: 'Karla' , sans-serif;
+    font-size: 52px;
+    position: relative;
+    bottom: 80px;
+    left: 30px;
+}
+
+.proj-3-header {
+    position: relative;
+    right: 310px;
+    bottom: 100px;
+}
+
+.proj-3 {
+    position: relative;
+    bottom: 720px;
+    left: 900px;
+}
+
+.proj-3-text {
+    color: white;
+    font-size: 30px;
+    font-family: 'Karla' , sans-serif;
+    position: relative;
+    bottom: 70px;
+    left: 10px;
+}
+
+.container-footer {
+    width: 1219px;
+    height: 312px;
+    border: 10px solid black;
+    background-color: black;
+    position: relative;
+    bottom: 600px;
+    left: 50px;
+}
+
+.footer-text {
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins' , sans-serif;
+    position: relative;
+    left: 450px;
+    top: 50px;
+}
+
+.container-2 {
+    width: 640px;
+    height: 88px;
+    border: 10px solid #22273A;
+    background-color: #22273A;
+    position: relative;
+    top: 100px;
+    left: 300px;
+}
+
+.container-2-text {
+    color: white;
+    font-family: 'Poppins' , sans-serif;
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+
+.container-3 {
+    width: 164px;
+    height: 55px;
+    border: 10px solid ##373D54;
+    background-color: #373D54;
+    position: relative;
+    left: 390px;
+    bottom: 8px;
+}
+
+.container-3-text {
+    color: white;
+    font-family: 'Poppins' , sans-serif;
+    position: relative;
+    left: 50px;
+    top: 20px;
+}
